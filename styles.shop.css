@@ -1,0 +1,198 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.header-logo {
+    height: 50px;
+    margin-left: 20px;
+}
+
+#Burgermenu {
+    font-size: 200%;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+#navbar {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    z-index: 1001;
+    padding-top: 60px;
+    text-align: right;
+}
+
+#navbar.show {
+    display: block;
+}
+
+#navbar a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+#navbar a:hover {
+    background-color: gray;
+}
+
+#Description, #ShopDescription {
+    color: rgb(255, 255, 255);
+    margin-top: 20%;
+    font-size: 250%;
+    text-align: center;
+}
+
+#Description {
+    margin-top: 120%;
+    width: 200%;
+    margin-left: 70%;
+}
+
+.Propertie {
+    background-color: white;
+    width: 90%;
+    height: 100%;
+    color: black;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.property-card {
+    background-color: #333;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.property-card h3 {
+    margin-top: 10px;
+}
+
+.property-card p {
+    margin: 5px 0;
+}
+
+.property-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.property-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.property-info {
+    text-align: left;
+}
+
+.view-details {
+    text-align: right;
+}
+
+.main-house-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price-info h2 {
+    color: #fff;
+    margin-top: 20px;
+}
+
+.description, .contact-agent, .location {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.description h4, .contact-agent h4, .location h4 {
+    color: #fff;
+}
+
+.price-info p {
+    color: #fff;
+}
+
+#Description3 {
+    color: rgb(255, 255, 255);
+    margin-top: 50%;
+    font-size: 300%;
+    width: 50%;
+    margin-left: 43%;
+    margin-bottom: 10%;
+}
+
+#Bottomfix {
+    margin-bottom: 10%;
+}
+
+.Contact {
+    font-size: 200%;
+    margin-left: 15%;
+    color: white;
+}
+
+.AndrinContact {
+    margin-left: 45%;
+    margin-top: -13%;
+}
+
+#Footer {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 110%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px 0;
+}
+
+#text {
+    padding-top: 2%;
+}

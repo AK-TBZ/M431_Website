@@ -1,0 +1,138 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(MainSideHouse.webp);
+    background-repeat: no-repeat;
+    background-image: image-set(center);
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.header-logo {
+    height: 50px;
+    margin-left: 20px;
+}
+
+#Burgermenu {
+    font-size: 200%;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+#navbar {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    z-index: 1001;
+    padding-top: 60px;
+    text-align: right;
+}
+
+#navbar.show {
+    display: block;
+}
+
+#navbar a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+#navbar a:hover {
+    background-color: gray;
+}
+
+#fieldset {
+    display: none;
+}
+
+#Description {
+    color: rgb(255, 255, 255);
+    margin-top: 120%;
+    font-size: 300%;
+    width: 300%;
+    height: 13%;
+    background-color: black;
+    text-align: center;
+    margin-left: 5%;
+}
+
+#Description2 {
+    color: rgb(255, 255, 255);
+    margin-top: 20%;
+    font-size: 300%;
+    width: 100%;
+    margin-left: 70%;
+}
+
+.Propertie {
+    background-color: white;
+    width: 90%;
+    height: 100%;
+    color: black;
+}
+
+#P1 {
+    margin-left: 10%;
+}
+
+#P2 {
+    margin-top: 32%;
+}
+
+#P3 {
+    margin-left: 10%;
+}
+
+#Description3 {
+    color: rgb(255, 255, 255);
+    margin-top: 50%;
+    font-size: 300%;
+    width: 50%;
+    margin-left: 43%;
+    margin-bottom: 10%;
+}
+
+#Bottomfix {
+    margin-bottom: 10%;
+}
+
+.Contact {
+    font-size: 200%;
+    margin-left: 15%;
+    color: white;
+}
+
+.AndrinContact {
+    margin-left: 45%;
+    margin-top: -13%;
+}
+
+#Footer {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 110%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#text {
+    padding-top: 2%;
+}

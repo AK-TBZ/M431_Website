@@ -1,0 +1,71 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-image {
+    width: 100%;
+    height: 600px; /* Set a larger fixed height for the main image */
+    object-fit: cover;
+}
+
+.gallery {
+    flex: 1;
+    overflow: hidden;
+}
+
+.gallery img {
+    width: 100%;
+    height: calc(33.333% - 10px); /* Slightly smaller to fit well with main image */
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s;
+    margin-bottom: 10px; /* Add margin between images */
+}
+
+.gallery img:last-child {
+    margin-bottom: 0; /* Remove margin from the last image */
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.description, .contact-agent, .location {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.description h4, .contact-agent h4, .location h4 {
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+}
+
+p {
+    margin: 0.5em 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-4 {
+    margin-top: 1.5em;
+}
+
+.mb-3 {
+    margin-bottom: 1em;
+}
+
+.modal-lg {
+    max-width: 80%;
+}
