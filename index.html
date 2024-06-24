@@ -11,18 +11,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <div class="container-fluid">
-        <fieldset id="fieldset">
-            <img src="Logo.png" alt="Logo" id="Logo">
-        </fieldset>
-        <p id="Burgermenu">☰</p>
+    <header class="fixed-header">
+        <div class="d-flex justify-content-between align-items-center">
+            <img src="Logo.png" alt="Logo" class="header-logo">
+            <p id="Burgermenu">☰</p>
+        </div>
+    </header>
 
-        <nav id="navbar" class="nav flex-column">
-            <a class="nav-link" href="index.html">Home</a>
-            <a class="nav-link" href="shop.html">Shop</a>
-            <a class="nav-link" href="#contact">Contact Us</a>
-        </nav>
+    <nav id="navbar" class="nav flex-column">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="shop.html">Shop</a>
+        <a class="nav-link" href="#contact">Contact Us</a>
+    </nav>
 
+    <div class="container-fluid mt-5 pt-3">
         <div class="row">
             <div class="col">
                 <p id="Description">Welcome to Jupiter Property Consultants</p>
